@@ -72,6 +72,11 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
+```python
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+```
+
 First Header | Second Header | Third Header
 ------------ | ------------- | ------------
 Content Cell | Content Cell  | Content Cell
