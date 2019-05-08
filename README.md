@@ -6,6 +6,8 @@ I am iron man!
 </tr>
 </table>
 
+![Alt text](chicken you are so beautiful.jpg "Optional title")
+
 # Recent plan
 
 **Note:** must be done!
