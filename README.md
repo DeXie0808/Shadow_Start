@@ -65,3 +65,24 @@ I am iron man!
 
 - [ ] 不勾选
 - [x] 勾选
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+First Header | Second Header | Third Header
+------------ | ------------- | ------------
+Content Cell | Content Cell  | Content Cell
+Content Cell | Content Cell  | Content Cell
+
+First Header | Second Header | Third Header
+:----------- | :-----------: | -----------:
+Left         | Center        | Right
+Left         | Center        | Right
+
+
+这是分隔线上部分内容
+---
+这是分隔线上部分内容
