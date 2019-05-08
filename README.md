@@ -87,14 +87,3 @@ Left         | Center        | Right
 ---
 这是分隔线上部分内容
 
-```graph
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->E;
-    E-->F;
-    D-->F;
-    F-->G;
-```
-
